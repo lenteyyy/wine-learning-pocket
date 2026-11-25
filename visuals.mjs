@@ -1,0 +1,31 @@
+// Images link to their original sources; photographs depict the topic, not a guarantee of wine style.
+const V=(url,source)=>({url,source});
+export const lessonImages=[
+V('https://en.shop.midalidare.bg/resources/wine-guide-wine-glass-pairing-3_wine-glasses-part-2-white_background-1200x630.jpg','https://en.shop.midalidare.bg/blog/wine-glass-pairing-guide-to-different-types-of-wine-glasses-with-stem-part-2-19395'),
+V('https://www.champagne-coche.com/assets/img/p2/2_region_img.webp?t=1768294870','https://www.champagne-coche.com/domaine.html'),
+V('https://qelviq.com/cdn/shop/articles/vision-of-top-sommelier-raimonds-tomsons-room-temp.jpg?v=1710171594','https://qelviq.com/blogs/news/sommelier-raimonds-tomsons-the-mistake-of-room-temperature-wine'),
+V('https://cdn.mos.cms.futurecdn.net/snKwPhtKUw7r46NowFB7UN.jpg','https://www.decanter.com/learn/left-right-bank-bordeaux-difference-436548/'),
+V('https://images.squarespace-cdn.com/content/v1/65b7fdeb3d92fd421b4aa705/1707495730331-VC9G7ELKAW1XZ1QNACPP/Wine_Cave_Bottles.jpg','https://www.d3selections.com/producers/champagne-robert-moncuit'),
+V('https://www.brunoclair.com/fichiers/vinification-3.jpg','https://www.brunoclair.com/en/expertise/'),
+V('https://www.ruffino.it/cdn/shop/files/Chianti_1877_5.png?v=1720444686','https://www.ruffino.it/products/chianti'),
+V('https://www.bottledandboxed.com/images/products/Perrier-jouet-grand-brut.jpg','https://www.bottledandboxed.com/product/5808_perrier-jouet-grand-brut-champagne-75cl'),
+V('https://www.ruffino.it/cdn/shop/files/Chianti_1877_5.png?v=1720444686','https://www.ruffino.it/products/chianti'),
+V('https://qelviq.com/cdn/shop/articles/vision-of-top-sommelier-raimonds-tomsons-room-temp.jpg?v=1710171594','https://qelviq.com/blogs/news/sommelier-raimonds-tomsons-the-mistake-of-room-temperature-wine'),
+V('https://lacave-eclairee.fr/cdn/shop/files/cepage_riesling.webp','https://lacave-eclairee.fr/en/blogs/info/grands-crus-alsace-discovering-exceptional-terroirs'),
+V('https://mercadodevinos.mx/cdn/shop/products/Miraval.png?v=1522122433','https://mercadodevinos.mx/products/miraval'),
+V('https://lacave-eclairee.fr/cdn/shop/files/cepage_riesling.webp','https://lacave-eclairee.fr/en/blogs/info/grands-crus-alsace-discovering-exceptional-terroirs'),
+V('https://lefrenchwineshop.com/cdn/shop/collections/sauvignon-blanc-grapes.jpg?v=1752249612','https://lefrenchwineshop.com/collections/sauvignon-blanc'),
+V('https://images.squarespace-cdn.com/content/v1/5f8c82d3117bcf130eccb18b/e538cf27-5e73-4831-a9e9-ef2580d9683d/aug%2B31%2Bchardonnay%2Brow.jpg','https://www.brueskokcellars.com/notesfromthevines'),
+V('https://sibbus.com/fileadmin/_processed_/c/3/csm_100_1170_76c8643f73.jpg','https://sibbus.com/en/variety-descriptions/red-wine-varieties/pinot-noir.html'),
+V('https://upload.wikimedia.org/wikipedia/commons/1/11/Merlot_grapes_in_Bourg_vineyard.jpg','https://commons.wikimedia.org/wiki/File:Merlot_grapes_in_Bourg_vineyard.jpg'),
+V('https://falstaff.b-cdn.net/storage/2023/03/BiT_Reserve-Brut-close-up.jpg','https://www.falstaff.com/en/news/interview-champagne-telmonts-ludovic-du-plessis-about-sustainability'),
+V('https://ndjohn.co.uk/cdn/shop/products/Charles_Heidseick_Blanc_de_Blancs.jpg?v=1664488870','https://ndjohn.co.uk/products/charles-heidsieck-blanc-de-blancs'),
+V('https://cdn.audleytravel.com/1400/999/60/1347812-burgundy-vineyards-france.jpg','https://www.audleytravel.com/us/france/things-to-do/burgundy-cote-de-beaune-and-cote-de-nuits'),
+V('https://cdn.mos.cms.futurecdn.net/snKwPhtKUw7r46NowFB7UN.jpg','https://www.decanter.com/learn/left-right-bank-bordeaux-difference-436548/'),
+V('https://www.brunoclair.com/fichiers/vinification-3.jpg','https://www.brunoclair.com/en/expertise/'),
+V('https://www.perfectcellar.com/cdn/shop/files/CatenaAppellationLaConsultaMalbec.png?v=1728483101','https://www.perfectcellar.com/products/catena-appellation-la-consulta-malbec-2024'),
+V('https://www.winenara.com/uploads/product/550/f67fd928f90164dbdc16d1c17200482e.png','https://www.winenara.com/shop/product/product_view?product_cd=040915'),
+V('https://dragoncitywines.com/cdn/shop/files/Ch.Talbot2017.png?v=1721094472&width=1445','https://dragoncitywines.com/products/%E5%A4%A7%E5%AF%B6%E5%9F%8E%E5%A0%A1-chateau-talbot-2017'),
+V('https://www.ruffino.it/cdn/shop/files/Chianti_1877_5.png?v=1720444686','https://www.ruffino.it/products/chianti'),
+V('https://www.12bouteilles.com/14542-large_default/champagne-bollinger-special-cuvee-with-gift-box.jpg','https://www.12bouteilles.com/en/bollinger/1700-champagne-bollinger-special-cuvee-with-gift-box.html')
+];
