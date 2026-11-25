@@ -35,11 +35,11 @@ const questions=[
 ];
 const esc=escapeHTML; let lang=Number(localStorage.getItem('wine-lang')||0),page=0,q=0,answered=false,order=[];let state=JSON.parse(localStorage.getItem('wine-progress')||'{}');let saved=JSON.parse(localStorage.getItem('wine-saved')||'[]');const tr=x=>x[lang];const save=()=>localStorage.setItem('wine-progress',JSON.stringify(state));
 const photos={
-'Yalumba Y Series Riesling':['https://valorecellars.com.au/api/images/81-08412.jpg','https://valorecellars.com.au/product/yalumba-y-series-riesling-750ml/'],
+'Yalumba Y Series Riesling':['https://www.thewinecollective.com.au/cdn/shop/files/ITM537202-2025-yalumba-the-y-series-riesling.webp?v=1756305532','https://www.thewinecollective.com.au/products/2025-yalumba-the-y-series-riesling-12-pack'],
 'Montes Classic Merlot':['https://www.wineswholesales.com.sg/cdn/shop/products/MontesClassicSeriesMerlot.png?v=1647326926','https://www.wineswholesales.com.sg/products/montes-classic-series-merlot'],
-'Gérard Bertrand Gris Blanc':['https://www.vinatis.com/95797-detail_default/gris-blanc-2024-gerard-bertrand.png','https://www.vinatis.com/73157-gris-blanc-2024-gerard-bertrand'],
-'Dogarina Prosecco DOC Treviso Brut Millesimato':['https://www.meininger.de/sites/meininger.de/files/fields/field_wein_bild/5591297.png','https://www.meininger.de/wein/praemierte-weine/2025-prosecco-doc-treviso-millesimato-brut'],
-'Bollinger Special Cuvée':['https://www.africaneasternonline.com/media/catalog/product/9/5/95470018.png','https://uaespirits.com/product/bollinger-special-cuvee-75cl-uae'],
+'Gérard Bertrand Gris Blanc':['https://s3.amazonaws.com/images.ecwid.com/images/29225174/1464409585.jpg','https://www.cavedebondues.fr/boutique/PAYS-DOC-G%C3%89RARD-BERTRAND-GRIS-BLANC-p206260593'],
+'Dogarina Prosecco DOC Treviso Brut Millesimato':['https://images.vivino.com/thumbs/vOPnlp7WQxiyRXNLkowM2Q_pb_600x600.png','https://www.vivino.com/it/dogarina-prosecco-di-treviso-millesimato-brut/w/1807555'],
+'Bollinger Special Cuvée':['https://www.12bouteilles.com/14542-large_default/champagne-bollinger-special-cuvee-with-gift-box.jpg','https://www.12bouteilles.com/en/bollinger/1700-champagne-bollinger-special-cuvee-with-gift-box.html'],
 'Pewsey Vale Vineyard Riesling':['https://radforddaleimports.com/cdn/shop/files/PEWSEY_VALE_RIESLING_9cfb5280-ff17-4c37-a5a5-dffda38223ba.png?v=1696328780','https://radforddaleimports.com/products/eden-valley-vineyard-riesling'],
 'Ruffino 1877 Chianti DOCG':['https://www.ruffino.it/cdn/shop/files/Chianti_1877_5.png?v=1720444686','https://www.ruffino.it/products/chianti'],
 'Taittinger Champagne Brut Réserve':['https://www.willowpark.net/cdn/shop/products/40873_Taittinger_Brut.png?v=1734137413','https://www.willowpark.net/products/taittinger-champagne-brut-res']
